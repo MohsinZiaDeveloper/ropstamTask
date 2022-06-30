@@ -10,6 +10,13 @@ import passes777bgImage from "./passes777bgImage.png";
 import sneakpeakBgimage from "./sneakPeakBgimage.png";
 import passes777 from "./777passes.png";
 import playbutton from "./playbutton.svg";
+import Team1 from "./Team1.png";
+import Team2 from "./Team2.png";
+import Team3 from "./Team3.png";
+import insta from "./instagram.svg";
+import twitter from "./twitter.svg";
+import youtube from "./youtube.svg";
+import discord from "./discord.svg";
 
 export const images = {
   clubhouse777,
@@ -24,4 +31,11 @@ export const images = {
   sneakpeakBgimage,
   passes777,
   playbutton,
+  Team1,
+  Team2,
+  Team3,
+  insta,
+  twitter,
+  youtube,
+  discord,
 };
