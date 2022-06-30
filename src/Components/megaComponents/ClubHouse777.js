@@ -49,10 +49,10 @@ const ClubHouse777 = () => {
       <div className="flex flex-col lg:flex lg:flex-row text-white pb-20 mt-10 px-28 ">
         <div className="w-full lg:w-1/2 pr-[10rem]  flex flex-col items-center">
           <div className="flex flex-col  py-10 items-left">
-            <h3 className="font-bold leading-16 text-[2.5rem]">
+            <h3 className="font-bold leading-[3.7rem] text-[3rem]">
               777 Clubhouse Founders Collection
             </h3>
-            <p className="text-xl font-light mt-5">Elevate your lifestyle</p>
+            <p className="text-2xl font-light mt-5">Elevate your lifestyle</p>
             <button className=" mt-10 w-fit text-white text-xs font-bold bg-gradient-to-r py-3 px-8 rounded-full from-pinkColor to-blueColor ">
               CONNECT WALLET
             </button>
