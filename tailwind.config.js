@@ -37,6 +37,7 @@ module.exports = {
       darkPurpleColor: "#653FB0",
       normalblueColor: "#452EAE",
       greeninshColor: "#33C5D7",
+      gradientNavyBlue: "#200B6A",
     },
   },
   plugins: [],

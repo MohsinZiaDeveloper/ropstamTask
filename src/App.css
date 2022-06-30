@@ -1,0 +1,8 @@
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .rightCard {
+    margin-top: 8rem;
+  }
+  .leftCard {
+    margin-top: 7rem;
+  }
+}

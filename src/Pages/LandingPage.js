@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Components/Footer";
 import ClubHouse777 from "../Components/megaComponents/ClubHouse777";
 import FrequentlyAskQ from "../Components/megaComponents/FrequentlyAskQ";
 import MeetTeam from "../Components/megaComponents/MeetTeam";
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <Roadmap />
       <MeetTeam />
       <FrequentlyAskQ />
+      <Footer />
     </div>
   );
 };

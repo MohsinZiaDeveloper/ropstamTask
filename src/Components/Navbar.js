@@ -91,7 +91,7 @@ const NavBar = () => {
 
                       <Link
                         smooth
-                        className="w-full py-2 px-4 lg:m-0  focus:bg-blueColor focus:text-white  text-white lg:text-white font-light transition-colors duration-300 ease-in-out group-hover:text-white z-10"
+                        className="w-full py-2 px-4 lg:m-0  focus:bg-blueColor focus:text-white opacity-75  text-white lg:text-white font-light transition-colors duration-300 ease-in-out group-hover:text-white z-10"
                         to={value.To}
                         onClick={() => setOpen(false)}
                       >

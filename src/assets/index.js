@@ -17,6 +17,7 @@ import insta from "./instagram.svg";
 import twitter from "./twitter.svg";
 import youtube from "./youtube.svg";
 import discord from "./discord.svg";
+import facebook from "./facebook.svg";
 
 export const images = {
   clubhouse777,
@@ -31,6 +32,7 @@ export const images = {
   sneakpeakBgimage,
   passes777,
   playbutton,
+  facebook,
   Team1,
   Team2,
   Team3,
