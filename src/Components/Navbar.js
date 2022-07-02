@@ -9,23 +9,23 @@ const navLinks = [
   },
   {
     Link: "ABOUT US",
-    To: "/#services",
+    To: "/#passes777",
   },
   {
     Link: "ROAD MAP",
-    To: "/#about",
+    To: "/#roadMap",
   },
   {
     Link: "TEAM",
-    To: "/#resume",
+    To: "/#meetTeam",
   },
   {
     Link: "WALLET COLLECT",
-    To: "/#potfolio",
+    To: "/#walletCollection",
   },
   {
     Link: "MINTING",
-    To: "/#contact",
+    To: "/#mining",
   },
 ];
 
@@ -54,29 +54,30 @@ const NavBar = () => {
 
   return (
     <div className=" h-[5rem] mt-2 lg:mt-10">
-      <div className=" w-full h-[4.5rem] px-20  bg-transparent z-[50] ">
+      <div className=" w-full h-[4.5rem] px-2 lg:px-20  bg-transparent z-[50] ">
         <div className="md:flex items-center justify-between relative  md:px-10 h-full px-7">
-          <div className="font-bold text-2xl cursor-pointer  flex items-center ">
+          <div className="font-bold text-2xl cursor-pointer  flex  items-center ">
             <ImageViewer
               src="WebsiteLogo"
               onClick={() =>
                 screenDimension.width < 1280 ? setOpen(!open) : ""
               }
-              className="h-[5rem] w-[5rem]  "
+              className="h-14 w-14 mt-2 lg:mt-0  lg:h-[5rem] lg:w-[5rem]  "
             />
           </div>
           <div
             onClick={() => setOpen(!open)}
             className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
           >
-            <ion-icon
+            <ImageViewer className="h-8 w-8" src="menuicon" />
+            {/* <ion-icon
               className="text-white"
               name={open ? "close" : "menu"}
-            ></ion-icon>
+            ></ion-icon> */}
           </div>
 
           <div
-            className={`md:flex md:items-center h-[100vh] rounded-l-sm lg:rounded-none lg:h-auto bg-pinkColor bg-opacity-80   lg:bg-transparent md:pb-0 pb-12 absolute md:static gap-10 md:z-auto  w-full  md:w-auto md:pl-0 pl-9 transition-all duration-700 ease-in ${
+            className={`md:flex md:items-center h-screen z-10 rounded-l-sm lg:rounded-none lg:h-auto bg-blueColor bg-opacity-90   lg:bg-transparent md:pb-0 pb-12 absolute md:static gap-10 md:z-auto  w-full  md:w-auto md:pl-0 pl-9 transition-all duration-700 ease-in ${
               open
                 ? "right-[-25vw] top-[4.5rem] lg:top-0 "
                 : "right-[-175vw] top-[4.5rem] lg:top-0"
@@ -103,9 +104,11 @@ const NavBar = () => {
               })}
             </ul>
             <div className="w-auto">
-              <button className=" w-auto text-white text-xs font-bold bg-gradient-to-r py-3 px-8 rounded-full from-pinkColor to-blueColor ">
-                CONTACT US
-              </button>
+              <Link smooth to="/#contactus">
+                <button className=" w-auto text-white text-xs font-bold bg-gradient-to-r py-3 px-8 rounded-full from-pinkColor to-blueColor ">
+                  CONTACT US
+                </button>
+              </Link>
             </div>
           </div>
         </div>

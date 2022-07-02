@@ -44,13 +44,13 @@ const cardList = [
 
 const ClubHouse777 = () => {
   return (
-    <div className="flex justify-center   h-auto overflow-hidden  bg-cover bg-no-repeat  bg-[url('assets/headerBackground.png')]">
+    <div className="flex justify-center   h-screen lg:h-auto overflow-hidden  bg-cover bg-no-repeat  bg-[url('assets/headerBackground.png')]">
       <div className="container flex flex-col">
         <Navbar />
-        <div className="flex flex-col lg:flex lg:flex-row text-white pb-20 mt-10 px-28 ">
-          <div className="w-full lg:w-1/2 pr-[10rem]  flex flex-col items-center">
-            <div className="flex flex-col  py-10 items-left">
-              <h3 className="font-bold leading-[3.7rem] text-[3rem]">
+        <div className="flex flex-col lg:flex lg:flex-row text-white pb-20 mt-10 px-4 lg:px-28 ">
+          <div className="w-full lg:w-1/2 p-0 lg:pr-[10rem]  flex flex-col items-center">
+            <div className="flex flex-col  py-10 items-center lg:items-start">
+              <h3 className="font-bold leading-10 text-center lg:text-left lg:leading-[3.7rem] text-3xl lg:text-[3rem]">
                 777 Clubhouse Founders Collection
               </h3>
               <p className="text-2xl font-light mt-5 opacity-70">

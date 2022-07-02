@@ -18,6 +18,7 @@ import twitter from "./twitter.svg";
 import youtube from "./youtube.svg";
 import discord from "./discord.svg";
 import facebook from "./facebook.svg";
+import menuicon from "./menuIcon.png";
 
 export const images = {
   clubhouse777,
@@ -40,4 +41,5 @@ export const images = {
   twitter,
   youtube,
   discord,
+  menuicon,
 };

@@ -2,8 +2,11 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div className="flex   justify-center  bg-cover text-white backdrop-blur-xl  h-auto overflow-hidden  bg-no-repeat  bg-[url('assets/RoadmapBgimage.png')]">
-      <div className="container flex justify-cente lg:pt-56 lg:pb-20 py-0   ">
+    <div
+      id="roadMap"
+      className="flex   justify-center  bg-cover text-white backdrop-blur-xl  h-auto overflow-hidden  bg-no-repeat  bg-[url('assets/RoadmapBgimage.png')]"
+    >
+      <div className="container flex justify-center lg:pt-56 lg:pb-20 pb-20   ">
         <div className=" w-2/5  hidden  lg:flex flex-col ">
           <div className="px-20 py-5 mt-0 relative">
             <div className="absolute h-1 w-[10rem] bg-orangeColor top-[9.5rem] right-[-5rem]"></div>
