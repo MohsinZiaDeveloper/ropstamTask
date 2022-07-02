@@ -9,7 +9,7 @@ import SneakPeak from "../Components/megaComponents/SneakPeak";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="z-50">
       <ClubHouse777 />
       <Passes777 />
       <SneakPeak />

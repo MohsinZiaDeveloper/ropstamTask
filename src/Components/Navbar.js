@@ -77,7 +77,7 @@ const NavBar = () => {
           </div>
 
           <div
-            className={`md:flex md:items-center h-screen z-10 rounded-l-sm lg:rounded-none lg:h-auto bg-blueColor bg-opacity-90   lg:bg-transparent md:pb-0 pb-12 absolute md:static gap-10 md:z-auto  w-full  md:w-auto md:pl-0 pl-9 transition-all duration-700 ease-in ${
+            className={`md:flex md:items-center h-screen z-10 rounded-l-sm lg:rounded-none lg:h-auto                    bg-gradient-to-t from-pinkColor to-blueColor     lg:bg-none          bg-opacity-90   md:pb-0 pb-12 absolute md:static gap-10 md:z-auto  w-full  md:w-auto md:pl-0 pl-9 transition-all duration-700 ease-in ${
               open
                 ? "right-[-25vw] top-[4.5rem] lg:top-0 "
                 : "right-[-175vw] top-[4.5rem] lg:top-0"

@@ -5,7 +5,7 @@ const MeetTeam = () => {
   return (
     <div
       id="meetTeam"
-      className="flex justify-center   mt-[-3rem]  py-20 backdrop-blur-xl bg-cover text-white  h-auto overflow-hidden  bg-no-repeat  bg-[url('assets/Roadmap.png')]"
+      className="flex justify-center   mt-[-3rem]   py-20 backdrop-blur-xl bg-cover text-white  h-auto overflow-hidden  bg-no-repeat  bg-[url('assets/Roadmap.png')]"
     >
       <div className="container flex flex-col">
         <div className="flex w-full pb-10 justify-center">

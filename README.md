@@ -1,5 +1,3 @@
-# `Note : Hope you are doing great today ! , at morning i have full time job right now so i gave 2 to 3 hors a day for this task if i have that on weekend then its done more early surly . The project details are as following Thanks.`
-
 # Task Title
 
 777 Club
@@ -37,3 +35,8 @@ Complete.
 No creds Required
 
 # Screenshots
+
+# Responsiveness
+
+Mobile
+Desktop
